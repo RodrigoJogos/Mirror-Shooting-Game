@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c7d45c7c230724d9b9e8081a8c5c11, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  name: Pistol
+  is_reloading: 0
+  next_fire_time: 0
+  fireRate: 0.54
+  reload_time: 2
+  ammo: 8
+  original_ammo: 8
+  damage: 1
+  shooting_clip: {fileID: 7400000, guid: 761f9d94c752b8b4399ac8b53cdff96e, type: 2}
+  reloading_clip: {fileID: 7400000, guid: eee82a5917e550246b09c20e838c19d3, type: 2}
+  icon_hud: {fileID: 21300000, guid: bcf48f23a7601c74fb058c161207c7df, type: 3}

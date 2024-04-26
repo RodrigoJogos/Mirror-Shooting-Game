@@ -1,0 +1,85 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="My_Network_Manager">
+			<method name="Change_Map"/>
+			<method name="Change_Map"/>
+			<method name="Host_Lobby"/>
+			<method name="Join_Lobby"/>
+		</type>
+		<type fullname="Player_Block">
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+			<method name="Control_Player"/>
+		</type>
+		<type fullname="Player_Join">
+			<method name="Set_Player_Ready"/>
+			<method name="Set_Player_Ready"/>
+			<method name="Set_Player_Ready"/>
+		</type>
+		<type fullname="Save_Load_Menu">
+			<method name="Load_Skins"/>
+			<method name="Quit_Game"/>
+			<method name="Save_Player_Name"/>
+			<method name="Save_Skins"/>
+			<method name="Save_Skins"/>
+		</type>
+		<type fullname="Scene_Controller">
+			<method name="Load_Level"/>
+			<method name="Load_Level"/>
+			<method name="Load_Level"/>
+			<method name="Load_Level"/>
+			<method name="Quit_Online"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
