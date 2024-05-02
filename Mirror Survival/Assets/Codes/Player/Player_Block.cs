@@ -12,6 +12,7 @@ public class Player_Block : MonoBehaviour
      private Player_Gun player_gun;
      private Gun_Settings gun_settings;
      private Player_Nickname player_nickname;
+     private Upgrades_System upgrades_system;
 
 
      [SerializeField] private GameObject player_Hud;
@@ -27,6 +28,8 @@ public class Player_Block : MonoBehaviour
           player_gun = GetComponentInChildren<Player_Gun>();
           gun_settings = GetComponentInChildren<Gun_Settings>();
           player_nickname = GetComponentInChildren<Player_Nickname>();
+          upgrades_system = GetComponentInChildren<Upgrades_System>();
+
      }
 
 
@@ -44,7 +47,12 @@ public class Player_Block : MonoBehaviour
           gun_settings.enabled = _is_allowed;
 
           player_nickname.Change_Rotation();
-          player_nickname.enabled = !_is_allowed;         
+          player_nickname.enabled = !_is_allowed; 
+
+
+          //Cursor.visible = !_is_allowed;
+
+          upgrades_system.Set_Upgrade_Hud(!_is_allowed);
      }
    
 }

@@ -64,9 +64,9 @@ public class Game_Events : NetworkBehaviour
                 if (players_controller != null)
                 {
                     players_controller.Revive_All_Players(true);
-                    game_manager.StartCoroutine(game_manager.Countdown_Next_Wave("Next Wave In ",10f));
+                    game_manager.StartCoroutine(game_manager.Countdown_Next_Wave("Next Wave ",10f));
 
-                    // start_game.Access_Player_Controllers(false);
+                    start_game.Access_Player_Controllers(false);
                     Debug.Log("Wave Ended!");
                 }
                 break;
@@ -77,13 +77,13 @@ public class Game_Events : NetworkBehaviour
                 break;
 
             case "Game_Over":
-                StartCoroutine(Disable_All_Childs(2f, 0, true));
+                StartCoroutine(Disable_All_Childs(0f, 0, true));
                 allowed = false;
                 Debug.Log("Game Is Over...");
                 break;
 
             case "Game_Starts":
-                //game_manager.StartCoroutine(game_manager.Countdown_Next_Wave("",0f));
+                game_manager.StartCoroutine(game_manager.Countdown_Next_Wave("",0f));
                 Debug.Log("Game Started For Everyone");
                 break;
 
@@ -91,6 +91,11 @@ public class Game_Events : NetworkBehaviour
                 StartCoroutine(Disable_All_Childs(3f, 1, true));
                 allowed = false;
                 Debug.Log("Game WON!");
+                break;
+
+            case "Disable_Player_Upgrades":
+                start_game.Access_Player_Controllers(true);
+                Debug.Log("Upgrades Disable");
                 break;
 
             default:

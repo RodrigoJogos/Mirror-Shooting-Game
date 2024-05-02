@@ -49,8 +49,9 @@ public class Players_Manager : NetworkBehaviour
      public void Increase_Dies()
     {
         players_dies++;
+
         
-        if (players_dies >= 2) //Mudar esse valor depois
+        if (players_dies >= Count_All_Players_InRoom()) 
         {
             Game_Events.singleton.Change_Game_Event("Game_Over");
         }
@@ -70,5 +71,12 @@ public class Players_Manager : NetworkBehaviour
     }
 
 
+    //JUST TO GAMEOVER SYSTEM
+    public int Count_All_Players_InRoom()
+    {
+        Player_Inputs[] jogadores = Object.FindObjectsOfType<Player_Inputs>();
+
+        return jogadores.Length;
+    }
    
 }

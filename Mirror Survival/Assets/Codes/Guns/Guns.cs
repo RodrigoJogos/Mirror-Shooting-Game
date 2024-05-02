@@ -34,5 +34,12 @@ public class Guns
         icon_hud = _gun_data.icon_hud;
     }
 
+
+    public void Increase_ClipAmmo()
+    {
+        original_ammo += 2;
+    }
+
+
     
 }

@@ -10,9 +10,9 @@ public class Start_Game : NetworkBehaviour
     private Players_Manager players_Manager;
     [SyncVar(hook = nameof(Player_Ready_Count_Changed))] public int ready_players_count = 0;
 
-    // [Space(30)]
+    [Space(30)]
 
-    // public int max_players_room;
+    [SyncVar(hook = nameof(Changed_MaxPlayers_Room))] public int max_players_room = 0;
 
     [Space(30)]
 
@@ -24,7 +24,12 @@ public class Start_Game : NetworkBehaviour
     [SerializeField] private TMP_Text countdown_txt;
 
 
-    void Start() => players_Manager = GetComponent<Players_Manager>();
+    void Start()
+    {
+        players_Manager = GetComponent<Players_Manager>();
+        
+        Load_MaxPlayers_Room();
+    }
 
 
     [Server]
@@ -33,7 +38,7 @@ public class Start_Game : NetworkBehaviour
 
     public void Player_Ready_Count_Changed(int _oldcount, int _newcount)
     {
-        if (ready_players_count >= 2) // change this after
+        if (ready_players_count >= max_players_room) // change this after
         {
             StartCoroutine(Counting_Start_Game());
         }
@@ -73,5 +78,33 @@ public class Start_Game : NetworkBehaviour
         my_player.GetComponentInParent<Player_Block>().Control_Player(_state);
     }
 
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///
+
+    public void Load_MaxPlayers_Room()
+    {
+        if (PlayerPrefs.HasKey("Max_Players_Room"))
+        {
+              
+            if (isServer)
+            {
+                Server_Set_MaxPlayers(PlayerPrefs.GetInt("Max_Players_Room"));
+            }
+        }
+    }
+
+    [Server]
+    public void Server_Set_MaxPlayers(int _choosen_number)
+    {
+        max_players_room = _choosen_number;
+    }
+
+
+    public void Changed_MaxPlayers_Room(int _oldcount, int _newcount)
+    {
+       
+    }
 
 }

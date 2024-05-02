@@ -3,6 +3,7 @@
 		<type fullname="Billboard" preserve="nothing"/>
 		<type fullname="Camera_Follow" preserve="nothing"/>
 		<type fullname="CFX_AutoDestructShuriken" preserve="nothing"/>
+		<type fullname="CFX_LightIntensityFade" preserve="nothing"/>
 		<type fullname="Collider_Controll" preserve="nothing"/>
 		<type fullname="Enemy_Animation" preserve="nothing"/>
 		<type fullname="Enemy_Attack" preserve="nothing"/>
@@ -27,6 +28,7 @@
 		<type fullname="Player_Nickname" preserve="nothing"/>
 		<type fullname="Player_Rotation" preserve="nothing"/>
 		<type fullname="Player_Skin" preserve="nothing"/>
+		<type fullname="Player_Sounds" preserve="nothing"/>
 		<type fullname="Players_Manager" preserve="nothing"/>
 		<type fullname="PlayersLocal_Hud" preserve="nothing"/>
 		<type fullname="Pool_Controller" preserve="nothing"/>
@@ -35,8 +37,10 @@
 		<type fullname="Respawn_Points" preserve="nothing"/>
 		<type fullname="Save_Load_Menu" preserve="nothing"/>
 		<type fullname="Scene_Controller" preserve="nothing"/>
+		<type fullname="Shoots_Upgrade" preserve="nothing"/>
 		<type fullname="Skins_Manager" preserve="nothing"/>
 		<type fullname="Start_Game" preserve="nothing"/>
+		<type fullname="Upgrades_System" preserve="nothing"/>
 		<type fullname="Wave_Controller" preserve="nothing"/>
 		<type fullname="Wave_Data" preserve="nothing"/>
 	</assembly>
@@ -80,8 +84,11 @@
 		<type fullname="UnityEngine.AI.NavMeshData" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
+		<type fullname="UnityEngine.Audio.AudioResource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>

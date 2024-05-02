@@ -17,6 +17,7 @@ public class Pool_Controller : NetworkBehaviour
     //Shoots Pool References
     private int choosen_index;
     private Pool_GameObjects shoots_pool;
+    private Shoots_Upgrade shoots_upgrade;
 
 
     void Start()
@@ -35,6 +36,7 @@ public class Pool_Controller : NetworkBehaviour
         NetworkServer.Spawn(_pool_instance);
 
         shoots_pool = _pool_instance.GetComponent<Pool_GameObjects>();    
+        shoots_upgrade = _pool_instance.GetComponent<Shoots_Upgrade>();
     }
 
 
@@ -52,4 +54,9 @@ public class Pool_Controller : NetworkBehaviour
 
 
 
+    public Shoots_Upgrade Get_Shoots_Upgrade_Reference()
+    {
+        return shoots_upgrade;
+    }
+    
 }

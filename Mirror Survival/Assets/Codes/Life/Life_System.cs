@@ -22,6 +22,7 @@ public class Life_System : NetworkBehaviour
 
     [Header("Particles")]
     [SerializeField] private GameObject blood_effect;
+    [SerializeField] private GameObject pool_effects;
 
     
     [Header("Body To Disable")]
@@ -55,10 +56,11 @@ public class Life_System : NetworkBehaviour
     void All_Clients_Health_Changed(int _oldlife, int _newlife)
     {
         life_txt.text = "" + life;
-        //Change_Health_Bar();
+        Change_Health_Bar();
 
         if (life <= 0 && is_alive)
         {
+            //character_body.SetActive(false);
             StartCoroutine(Die(die_time));
         }
     }
@@ -77,6 +79,7 @@ public class Life_System : NetworkBehaviour
         this.gameObject.tag = "Untagged";
         yield return new WaitForSeconds(_seconds);
         this.gameObject.tag = tag_name;
+        //Instantiate(pool_effects,new Vector3(transform.position.x,transform.position.y + 1f,transform.position.z),Quaternion.identity);
         character_body.SetActive(false);
     }
   

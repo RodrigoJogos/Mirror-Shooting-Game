@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
+//
 public class My_Network_Manager : NetworkManager
 {
     public TMP_InputField AddressField;
@@ -17,7 +17,7 @@ public class My_Network_Manager : NetworkManager
     public int current_index = 0;
     public List<string> maps_names = new List<string>();
 
-
+    
 
 
 #region Create Room
@@ -122,4 +122,9 @@ public class My_Network_Manager : NetworkManager
         Destroy(this.gameObject);
     }
 
+
+    public void Quit_Game() =>  Application.Quit();
+
+
+    
 }

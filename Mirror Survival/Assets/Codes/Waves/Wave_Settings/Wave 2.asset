@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Wave 2
   wait_timer: 2
-  limit_wave: 1
+  limit_wave: 6
   enemies_spawned: 0
   enemys_killed: 0
   speed: 5
-  life: 3
-  damage: 2
+  life: 2
+  damage: 1

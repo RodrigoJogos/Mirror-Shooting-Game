@@ -8,19 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 7ad45234e3a5b704480e9ad7c31c58ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Apagar/Level.unity
     guid: c5eabffc491174e449ac72d63466df72
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Apagar/Fase.unity
     guid: ba74c24c18dbfb042b714802a65d5671
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Apagar/Praia.unity
     guid: 471eb7faca635e44b9d707a2b77b5680
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Error.unity
     guid: 86dc7d2304ac7874bbde6c89c58a9e87
   m_configObjects: {}

@@ -18,4 +18,6 @@ public class Scene_Controller : MonoBehaviour
 
         my_Network_Manager.Quit_Room();
     }
+
+    
 }

@@ -17,13 +17,20 @@ public class Gun_Settings : NetworkBehaviour
     public PlayersLocal_Hud gun_hud;
 
 
+    [Header("Audio Test")]    
+    public Player_Sounds player_sounds;
+   
+
 
     void Start()
     {
         pool_controller = GetComponent<Pool_Controller>();
-        
+        player_sounds = GetComponent<Player_Sounds>();
+
+
         //Create First Gun
         gun  = new Guns(gun_data);
+
 
         Change_Gun_Hud();
     }
@@ -41,13 +48,17 @@ public class Gun_Settings : NetworkBehaviour
 
         if (gun.ammo > 0)
         {
+            pool_controller.Cmd_Get_Index_Pool();
+
+            player_sounds.Stop_Pistol_Shoot_Sound();
             gun.ammo--;
             gun_hud.Set_Ammo(gun.ammo);
 
-            pool_controller.Cmd_Get_Index_Pool();
+            player_sounds.Pistol_Shoot_Sound();
            
            if (gun.ammo < 1)
            {
+                player_sounds.Stop_Pistol_Shoot_Sound();
                 Call_Reload();
            }
         }
@@ -63,6 +74,7 @@ public class Gun_Settings : NetworkBehaviour
     {
         gun.ammo = 0;
         gun.is_reloading = true;
+        player_sounds.Pistol_Reloading_Sound();
         yield return new WaitForSeconds(gun.reloading_clip.length);
         gun.ammo = gun.original_ammo;
         gun_hud.Set_Ammo(gun.ammo);

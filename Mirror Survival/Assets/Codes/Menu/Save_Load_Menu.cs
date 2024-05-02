@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
-//teste
 using UnityEngine.SceneManagement;
 
 public class Save_Load_Menu : MonoBehaviour
@@ -26,7 +24,15 @@ public class Save_Load_Menu : MonoBehaviour
     [SerializeField] GameObject[] select_toggles;
 
 
-    void Start() => Load_Player_Name();
+    [Header("Create Room")]
+    public TMP_Dropdown room_player_dropdown;
+
+
+    void Start()
+    {
+        Load_Player_Name();
+        PlayerPrefs.DeleteKey("Max_Players_Room");
+    }
 
 
     public void Save_Player_Name()
@@ -40,8 +46,8 @@ public class Save_Load_Menu : MonoBehaviour
         if (PlayerPrefs.HasKey("players_name"))
         {
             player_name = PlayerPrefs.GetString("players_name");  
-            name_screen.SetActive(false);
-            introduction_screen.SetActive(true);
+            // name_screen.SetActive(false);
+            // introduction_screen.SetActive(true);
         }
     }
 
@@ -73,12 +79,12 @@ public class Save_Load_Menu : MonoBehaviour
     public void Quit_Game() =>  Application.Quit();
 
 
+///////////////////////////////////////////////////////////////////////
 
-// APAGAR DEPOIS CODIGO A SEGUIR
-    public void Load_Scene(string _name_scene)
+
+    public void Save_Max_Players_Room()
     {
-        SceneManager.LoadScene(_name_scene);
+        PlayerPrefs.SetInt("Max_Players_Room", room_player_dropdown.value + 1);
     }
-
 
 }

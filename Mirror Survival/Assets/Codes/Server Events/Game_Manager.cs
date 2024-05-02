@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Mirror;
-
+//
 
 public class Game_Manager : NetworkBehaviour
 {
@@ -52,6 +52,8 @@ public class Game_Manager : NetworkBehaviour
 
         huds_manager.Change_Choosen_Texts(0,"" + wave_class.name);
         huds_manager.Change_Choosen_Texts(1, wave_class.limit_wave + " Enemies Left");
+
+        Game_Events.singleton.Change_Game_Event("Disable_Player_Upgrades");
 
         Continue_Wave();
     }
@@ -109,6 +111,8 @@ public class Game_Manager : NetworkBehaviour
             return;
         }
         
+        huds_manager.Change_Choosen_Texts(0,"Game WON");
+        huds_manager.Change_Choosen_Texts(1, waves_survived + " Waves Survived");
         Game_Events.singleton.Change_Game_Event("Game_Won");
     }
 

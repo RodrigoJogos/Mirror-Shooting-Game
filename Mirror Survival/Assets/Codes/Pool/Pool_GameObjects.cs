@@ -35,10 +35,20 @@ public class Pool_GameObjects : NetworkBehaviour
     [ClientRpc]
     public void Clients_Recieved_GameObject(int _choosen_index, Vector3 _pos, Quaternion _rot)
     {
-        itens_list[_choosen_index].SetActive(true);
         itens_list[_choosen_index].transform.position = _pos;
         itens_list[_choosen_index].transform.rotation = _rot;
+        itens_list[_choosen_index].SetActive(true);
     }
 
 
+    public List<GameObject> Get_Pool_Itens()
+    {
+        return itens_list;
+    }
+
+
+
+
+
+   
 }
