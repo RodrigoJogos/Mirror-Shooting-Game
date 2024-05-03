@@ -32,6 +32,9 @@ public class Save_Load_Menu : MonoBehaviour
     {
         Load_Player_Name();
         PlayerPrefs.DeleteKey("Max_Players_Room");
+
+        input_type_name.text = "default";
+        room_player_dropdown.value = 0;
     }
 
 
@@ -46,8 +49,8 @@ public class Save_Load_Menu : MonoBehaviour
         if (PlayerPrefs.HasKey("players_name"))
         {
             player_name = PlayerPrefs.GetString("players_name");  
-            // name_screen.SetActive(false);
-            // introduction_screen.SetActive(true);
+            name_screen.SetActive(false);
+            introduction_screen.SetActive(true);
         }
     }
 

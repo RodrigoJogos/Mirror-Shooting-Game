@@ -46,7 +46,10 @@ public class Pool_GameObjects : NetworkBehaviour
         return itens_list;
     }
 
-
+    public GameObject Get_Specific_GameObject(int _index)
+    {
+        return itens_list[_index];
+    }
 
 
 

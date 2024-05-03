@@ -22,16 +22,18 @@ public class Life_System : NetworkBehaviour
 
     [Header("Particles")]
     [SerializeField] private GameObject blood_effect;
-    [SerializeField] private GameObject pool_effects;
+    private Death_Effects death_effects;
 
     
     [Header("Body To Disable")]
     [SerializeField] private GameObject character_body;
 
+
     void Start()
     {
         tag_name = this.gameObject.tag;
         
+        death_effects = GetComponent<Death_Effects>();
     }
 
 
@@ -78,8 +80,14 @@ public class Life_System : NetworkBehaviour
         Set_Alive_State(false);
         this.gameObject.tag = "Untagged";
         yield return new WaitForSeconds(_seconds);
+
+        if (death_effects != null)
+        {
+            death_effects.Appear_Effects();
+            yield return new WaitForSeconds(0.15f);
+        }
+        
         this.gameObject.tag = tag_name;
-        //Instantiate(pool_effects,new Vector3(transform.position.x,transform.position.y + 1f,transform.position.z),Quaternion.identity);
         character_body.SetActive(false);
     }
   

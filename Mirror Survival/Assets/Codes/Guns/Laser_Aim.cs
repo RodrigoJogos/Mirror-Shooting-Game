@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Laser_Aim : MonoBehaviour
 {
-    public LineRenderer laser;
+    private LineRenderer laser;
 
-    public Transform pointA, pointB;
+    [SerializeField] private Transform pointA, pointB;
 
-    public  float comprimentoMaximo = 10f;
+    [SerializeField] private float comprimentoMaximo = 10f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,6 @@ public class Laser_Aim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
             // Cria um Raycasthit para armazenar as informações do que foi atingido
             RaycastHit hit;
 
@@ -46,6 +45,23 @@ public class Laser_Aim : MonoBehaviour
         laser.SetPosition(0,pointA.position);
 
         laser.SetPosition(1,_target);
+    }
+
+    public void Set_Laser_State()
+    {
+        if (!this.gameObject.activeSelf)
+        {
+            this.gameObject.SetActive(true);
+            return;
+        }
+
+        if (this.gameObject.activeSelf)
+        {
+            this.gameObject.SetActive(false);
+            return;
+        }
+
+       
     }
 
 }

@@ -121,6 +121,7 @@
     <Compile Include="Assets\Codes\Guns\Gun_Settings.cs" />
     <Compile Include="Assets\Codes\Waves\Respawn_Points.cs" />
     <Compile Include="Assets\Codes\Disable_Audio.cs" />
+    <Compile Include="Assets\Codes\Life\Death_Effects.cs" />
     <Compile Include="Assets\Codes\Guns\Laser_Aim.cs" />
   </ItemGroup>
   <ItemGroup>

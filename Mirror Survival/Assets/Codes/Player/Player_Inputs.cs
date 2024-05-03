@@ -9,7 +9,8 @@ public class Player_Inputs : NetworkBehaviour
 
     private Vector3 mouse_position;
    
-    private bool is_shooting, is_reloading;
+    private bool is_shooting, is_reloading, has_aimed;
+
 
 
 
@@ -44,6 +45,12 @@ public class Player_Inputs : NetworkBehaviour
     {
         is_reloading = Input.GetButtonDown("Reload");
         return is_reloading;
+    }
+
+     public bool Set_RightClick()
+    {
+        has_aimed = Input.GetButtonDown("Aim");
+        return has_aimed;
     }
 
    

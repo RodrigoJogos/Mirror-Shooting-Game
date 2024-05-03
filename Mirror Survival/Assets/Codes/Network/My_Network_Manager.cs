@@ -7,17 +7,25 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 //
+
+//
 public class My_Network_Manager : NetworkManager
 {
     public TMP_InputField AddressField;
 
     public TMP_Text map_txt;
 
+    public GameObject error_hud;
+
     [Space(30)]
     public int current_index = 0;
     public List<string> maps_names = new List<string>();
 
     
+    void Start()
+    {
+        Select_Map(maps_names[current_index]);
+    }
 
 
 #region Create Room
@@ -76,9 +84,9 @@ public class My_Network_Manager : NetworkManager
      public override void OnServerDisconnect(NetworkConnectionToClient conn)
     {
         //base.OnServerDisconnect(NetworkConnectionToClient conn);
-        //SceneManager.LoadScene("Error");
+        SceneManager.LoadScene("Error");
 
-        Quit_Room();
+        //Quit_Room();
     }
 
     public override void OnClientConnect()
@@ -93,11 +101,12 @@ public class My_Network_Manager : NetworkManager
         base.OnClientDisconnect();
 
         print("Cliente SAIU");
+
+        if(error_hud != null) error_hud.SetActive(true);
+        
     }
 
-
-
-
+    
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////

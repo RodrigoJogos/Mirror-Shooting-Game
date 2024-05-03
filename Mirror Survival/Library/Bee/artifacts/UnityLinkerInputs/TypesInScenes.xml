@@ -5,6 +5,7 @@
 		<type fullname="CFX_AutoDestructShuriken" preserve="nothing"/>
 		<type fullname="CFX_LightIntensityFade" preserve="nothing"/>
 		<type fullname="Collider_Controll" preserve="nothing"/>
+		<type fullname="Death_Effects" preserve="nothing"/>
 		<type fullname="Enemy_Animation" preserve="nothing"/>
 		<type fullname="Enemy_Attack" preserve="nothing"/>
 		<type fullname="Enemy_Chase" preserve="nothing"/>

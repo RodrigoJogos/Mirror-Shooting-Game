@@ -10,6 +10,7 @@ public class Wave_Controller : NetworkBehaviour
     private Pool_GameObjects enemies_pool;
     private Respawn_Points respawn_points;
 
+
     //Server Sync Variables
     [Header("Enemy Pool Index")]
     [SyncVar(hook = nameof(Server_GotEnemy_Index))] int index_enemy_choosen = -1;

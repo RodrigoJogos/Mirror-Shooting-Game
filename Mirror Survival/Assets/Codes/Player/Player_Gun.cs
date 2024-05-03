@@ -9,6 +9,8 @@ public class Player_Gun : NetworkBehaviour
     private Player_Inputs player_Inputs;
     
     private Gun_Settings gun_settings;
+
+    [SerializeField] private Laser_Aim laser_aim;
    
 
     void Start()
@@ -35,6 +37,15 @@ public class Player_Gun : NetworkBehaviour
         {
             gun_settings.Call_Reload();
         }
+
+        //AIM ACTION ===========================================================================================
+        if (player_Inputs.Set_RightClick())
+        {
+            laser_aim.Set_Laser_State();
+        }
+
+       
+        
 
     }
 

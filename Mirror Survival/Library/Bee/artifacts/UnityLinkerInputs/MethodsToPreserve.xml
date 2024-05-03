@@ -1,5 +1,9 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Gun_Settings">
+			<method name="Call_Reload"/>
+			<method name="Call_Reload"/>
+		</type>
 		<type fullname="My_Network_Manager">
 			<method name="Change_Map"/>
 			<method name="Change_Map"/>
@@ -33,16 +37,43 @@
 		<type fullname="Upgrades_System">
 			<method name="Cmd_Upgrade_Damage"/>
 			<method name="Cmd_Upgrade_Damage"/>
+			<method name="Cmd_Upgrade_OriginalAmmo"/>
+			<method name="Cmd_Upgrade_OriginalAmmo"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
 		</type>
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
-			<method name="SetActive"/>
-			<method name="SetActive"/>
-			<method name="SetActive"/>
-			<method name="SetActive"/>
-			<method name="SetActive"/>
-			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>

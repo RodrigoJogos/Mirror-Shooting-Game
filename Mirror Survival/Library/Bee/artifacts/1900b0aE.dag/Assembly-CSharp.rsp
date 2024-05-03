@@ -439,6 +439,7 @@
 "Assets/Codes/Guns/Projectile.cs"
 "Assets/Codes/Huds/Billboard.cs"
 "Assets/Codes/Huds/Huds_Manager.cs"
+"Assets/Codes/Life/Death_Effects.cs"
 "Assets/Codes/Life/Life_System.cs"
 "Assets/Codes/Menu/Save_Load_Menu.cs"
 "Assets/Codes/Network/My_Network_Manager.cs"

@@ -175,100 +175,7 @@
         165,
         166,
         167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199,
-        200,
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
-        215,
-        216,
-        217,
-        218,
-        219,
-        220,
-        221,
-        222,
-        223,
-        224,
-        225,
-        226,
-        227,
-        228,
-        229,
-        230,
-        231,
-        232,
-        233,
-        234,
-        235,
-        236,
-        237,
-        238,
-        239,
-        240,
-        241,
-        242,
-        243,
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251,
-        252,
-        253,
-        254,
-        255,
-        256,
-        257,
-        258,
-        259,
-        260,
-        261
+        168
       ],
       "DebugActionIndex": 0
     },
@@ -363,6 +270,24 @@
       "DebugActionIndex": 5
     },
     {
+      "Annotation": "CopyFiles Builds/Mirror Survival_Data/level2",
+      "DisplayName": "Copying level2",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/level2"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Builds/Mirror Survival_Data/level2"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 6
+    },
+    {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/resources.assets",
       "DisplayName": "Copying resources.assets",
       "ActionType": "CopyFiles",
@@ -378,7 +303,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 6
+      "DebugActionIndex": 7
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/resources.assets.resS",
@@ -396,7 +321,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Resources/unity_builtin_extra",
@@ -414,7 +339,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/RuntimeInitializeOnLoads.json",
@@ -432,7 +357,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/ScriptingAssemblies.json",
@@ -450,7 +375,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets0.assets",
@@ -468,7 +393,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets0.assets.resS",
@@ -486,7 +411,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets0.resource",
@@ -504,7 +429,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets1.assets",
@@ -522,7 +447,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets1.assets.resS",
@@ -540,14 +465,50 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets1.resource",
+      "DisplayName": "Copying sharedassets1.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets1.resource"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Builds/Mirror Survival_Data/sharedassets1.resource"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles Builds/Mirror Survival_Data/sharedassets2.assets",
+      "DisplayName": "Copying sharedassets2.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets2.assets"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Builds/Mirror Survival_Data/sharedassets2.assets"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 53567,
+      "PayloadLength": 53732,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "InputFlags": [],
@@ -557,7 +518,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -571,6 +532,7 @@
         "Library/PlayerDataCache/Win642/Data/globalgamemanagers.assets.resS",
         "Library/PlayerDataCache/Win642/Data/level0",
         "Library/PlayerDataCache/Win642/Data/level1",
+        "Library/PlayerDataCache/Win642/Data/level2",
         "Library/PlayerDataCache/Win642/Data/resources.assets",
         "Library/PlayerDataCache/Win642/Data/resources.assets.resS",
         "Library/PlayerDataCache/Win642/Data/Resources/unity_builtin_extra",
@@ -581,6 +543,8 @@
         "Library/PlayerDataCache/Win642/Data/sharedassets0.resource",
         "Library/PlayerDataCache/Win642/Data/sharedassets1.assets",
         "Library/PlayerDataCache/Win642/Data/sharedassets1.assets.resS",
+        "Library/PlayerDataCache/Win642/Data/sharedassets1.resource",
+        "Library/PlayerDataCache/Win642/Data/sharedassets2.assets",
         "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -1397,6 +1361,9 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
         2,
         2,
         2,
@@ -1440,11 +1407,11 @@
         0
       ],
       "ToBuildDependencies": [
-        16
+        19
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/boot.config",
@@ -1463,16 +1430,16 @@
         2
       ],
       "ToBuildDependencies": [
-        17
+        20
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13747411232512493620.rsp",
       "DisplayName": "Writing 13747411232512493620.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 53740,
-      "PayloadLength": 78401,
+      "PayloadOffset": 53905,
+      "PayloadLength": 78366,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"C:/Program",
       "Inputs": [],
       "InputFlags": [],
@@ -1482,7 +1449,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "UnityLinker C:/Users/Rodrigo/Documents/Games/Mirror Survival/Library/Bee/artifacts/unitylinker_dwek.traceevents",
@@ -2836,7 +2803,7 @@
         0
       ],
       "ToBuildDependencies": [
-        19
+        22
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -2862,7 +2829,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Assembly-CSharp.dll",
@@ -2881,9 +2848,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/BouncyCastle.Cryptography.dll",
@@ -2902,9 +2869,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/CFXRDemo.dll",
@@ -2923,9 +2890,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/CFXRRuntime.dll",
@@ -2944,9 +2911,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/kcp2k.dll",
@@ -2965,9 +2932,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/KinoBloom.Runtime.dll",
@@ -2986,9 +2953,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Authenticators.dll",
@@ -3007,9 +2974,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Components.dll",
@@ -3028,9 +2995,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.dll",
@@ -3049,9 +3016,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Examples.dll",
@@ -3070,9 +3037,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Transports.dll",
@@ -3091,9 +3058,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mono.Security.dll",
@@ -3112,9 +3079,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/mscorlib.dll",
@@ -3133,9 +3100,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/netstandard.dll",
@@ -3154,9 +3121,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Newtonsoft.Json.dll",
@@ -3175,9 +3142,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/SimpleWebTransport.dll",
@@ -3196,9 +3163,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.ComponentModel.Composition.dll",
@@ -3217,9 +3184,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Configuration.dll",
@@ -3238,9 +3205,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Core.dll",
@@ -3259,9 +3226,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -3280,9 +3247,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Data.dll",
@@ -3301,9 +3268,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.dll",
@@ -3322,9 +3289,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Drawing.dll",
@@ -3343,9 +3310,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.EnterpriseServices.dll",
@@ -3364,9 +3331,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.IO.Compression.dll",
@@ -3385,9 +3352,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -3406,9 +3373,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Net.Http.dll",
@@ -3427,9 +3394,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Numerics.dll",
@@ -3448,9 +3415,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Runtime.Serialization.dll",
@@ -3469,9 +3436,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Security.dll",
@@ -3490,9 +3457,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.ServiceModel.Internals.dll",
@@ -3511,9 +3478,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Transactions.dll",
@@ -3532,9 +3499,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Xml.dll",
@@ -3553,9 +3520,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/System.Xml.Linq.dll",
@@ -3574,9 +3541,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Telepathy.dll",
@@ -3595,9 +3562,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.AI.Navigation.dll",
@@ -3616,9 +3583,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.TextMeshPro.dll",
@@ -3637,9 +3604,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.Timeline.dll",
@@ -3658,9 +3625,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -3679,9 +3646,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -3700,9 +3667,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -3721,9 +3688,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.State.dll",
@@ -3742,9 +3709,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -3763,9 +3730,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AIModule.dll",
@@ -3784,9 +3751,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -3805,9 +3772,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -3826,9 +3793,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ARModule.dll",
@@ -3847,9 +3814,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -3868,9 +3835,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AudioModule.dll",
@@ -3889,9 +3856,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ClothModule.dll",
@@ -3910,9 +3877,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -3931,9 +3898,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -3952,9 +3919,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.CommandStateObserverModule.dll",
@@ -3973,9 +3940,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -3994,9 +3961,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.CoreModule.dll",
@@ -4015,9 +3982,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -4036,9 +4003,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -4057,9 +4024,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.dll",
@@ -4078,9 +4045,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -4099,9 +4066,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -4120,9 +4087,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GIModule.dll",
@@ -4141,9 +4108,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll",
@@ -4162,9 +4129,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GridModule.dll",
@@ -4183,9 +4150,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
@@ -4204,9 +4171,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -4225,9 +4192,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -4246,9 +4213,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -4267,9 +4234,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.InputForUIModule.dll",
@@ -4288,9 +4255,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -4309,9 +4276,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.InputModule.dll",
@@ -4330,9 +4297,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -4351,9 +4318,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -4372,9 +4339,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.MarshallingModule.dll",
@@ -4393,9 +4360,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.MultiplayerModule.dll",
@@ -4414,9 +4381,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -4435,9 +4402,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -4456,9 +4423,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -4477,9 +4444,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -4498,9 +4465,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -4519,9 +4486,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -4540,9 +4507,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -4561,9 +4528,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -4582,9 +4549,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -4603,9 +4570,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -4624,9 +4591,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -4645,9 +4612,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -4666,9 +4633,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -4687,9 +4654,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -4708,9 +4675,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -4729,9 +4696,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -4750,9 +4717,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -4771,9 +4738,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -4792,9 +4759,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -4813,9 +4780,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -4834,9 +4801,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -4855,9 +4822,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TLSModule.dll",
@@ -4876,9 +4843,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UI.dll",
@@ -4897,9 +4864,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -4918,9 +4885,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UIModule.dll",
@@ -4939,9 +4906,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -4960,9 +4927,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -4981,9 +4948,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -5002,9 +4969,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -5023,9 +4990,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -5044,9 +5011,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -5065,9 +5032,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -5086,9 +5053,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -5107,9 +5074,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -5128,9 +5095,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -5149,9 +5116,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -5170,9 +5137,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -5191,9 +5158,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VFXModule.dll",
@@ -5212,9 +5179,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VideoModule.dll",
@@ -5233,9 +5200,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -5254,9 +5221,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VRModule.dll",
@@ -5275,9 +5242,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.WindModule.dll",
@@ -5296,9 +5263,9 @@
         2
       ],
       "ToBuildDependencies": [
-        20
+        23
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.XRModule.dll",
@@ -5317,1989 +5284,15 @@
         2
       ],
       "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 137
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Assembly-CSharp.pdb",
-      "DisplayName": "Copying Assembly-CSharp.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Assembly-CSharp.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Assembly-CSharp.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 138
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/CFXRDemo.pdb",
-      "DisplayName": "Copying CFXRDemo.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/CFXRDemo.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/CFXRDemo.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 139
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/CFXRRuntime.pdb",
-      "DisplayName": "Copying CFXRRuntime.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/CFXRRuntime.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/CFXRRuntime.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
+        23
       ],
       "DebugActionIndex": 140
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/kcp2k.pdb",
-      "DisplayName": "Copying kcp2k.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/kcp2k.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/kcp2k.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 141
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/KinoBloom.Runtime.pdb",
-      "DisplayName": "Copying KinoBloom.Runtime.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/KinoBloom.Runtime.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/KinoBloom.Runtime.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 142
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Authenticators.pdb",
-      "DisplayName": "Copying Mirror.Authenticators.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mirror.Authenticators.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Mirror.Authenticators.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 143
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Components.pdb",
-      "DisplayName": "Copying Mirror.Components.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mirror.Components.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Mirror.Components.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 144
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Examples.pdb",
-      "DisplayName": "Copying Mirror.Examples.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mirror.Examples.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Mirror.Examples.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 145
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.pdb",
-      "DisplayName": "Copying Mirror.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mirror.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Mirror.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 146
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Mirror.Transports.pdb",
-      "DisplayName": "Copying Mirror.Transports.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mirror.Transports.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Mirror.Transports.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 147
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Newtonsoft.Json.pdb",
-      "DisplayName": "Copying Newtonsoft.Json.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Newtonsoft.Json.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Newtonsoft.Json.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 148
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/SimpleWebTransport.pdb",
-      "DisplayName": "Copying SimpleWebTransport.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/SimpleWebTransport.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/SimpleWebTransport.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 149
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Telepathy.pdb",
-      "DisplayName": "Copying Telepathy.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Telepathy.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Telepathy.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 150
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.AI.Navigation.pdb",
-      "DisplayName": "Copying Unity.AI.Navigation.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.AI.Navigation.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Unity.AI.Navigation.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 151
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.TextMeshPro.pdb",
-      "DisplayName": "Copying Unity.TextMeshPro.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Unity.TextMeshPro.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 152
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.Timeline.pdb",
-      "DisplayName": "Copying Unity.Timeline.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Timeline.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Unity.Timeline.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 153
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Core.pdb",
-      "DisplayName": "Copying Unity.VisualScripting.Core.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Core.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Core.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 154
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Flow.pdb",
-      "DisplayName": "Copying Unity.VisualScripting.Flow.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Flow.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.Flow.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 155
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.State.pdb",
-      "DisplayName": "Copying Unity.VisualScripting.State.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.State.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/Unity.VisualScripting.State.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 156
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AccessibilityModule.pdb",
-      "DisplayName": "Copying UnityEngine.AccessibilityModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AccessibilityModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.AccessibilityModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 157
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AIModule.pdb",
-      "DisplayName": "Copying UnityEngine.AIModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AIModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.AIModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 158
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
-      "DisplayName": "Copying UnityEngine.AndroidJNIModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 159
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AnimationModule.pdb",
-      "DisplayName": "Copying UnityEngine.AnimationModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.AnimationModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 160
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ARModule.pdb",
-      "DisplayName": "Copying UnityEngine.ARModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ARModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ARModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 161
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AssetBundleModule.pdb",
-      "DisplayName": "Copying UnityEngine.AssetBundleModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AssetBundleModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.AssetBundleModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 162
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.AudioModule.pdb",
-      "DisplayName": "Copying UnityEngine.AudioModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AudioModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.AudioModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 163
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ClothModule.pdb",
-      "DisplayName": "Copying UnityEngine.ClothModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClothModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ClothModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 164
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ClusterInputModule.pdb",
-      "DisplayName": "Copying UnityEngine.ClusterInputModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClusterInputModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ClusterInputModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 165
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
-      "DisplayName": "Copying UnityEngine.ClusterRendererModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClusterRendererModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 166
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.CommandStateObserverModule.pdb",
-      "DisplayName": "Copying UnityEngine.CommandStateObserverModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CommandStateObserverModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.CommandStateObserverModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 167
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ContentLoadModule.pdb",
-      "DisplayName": "Copying UnityEngine.ContentLoadModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ContentLoadModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ContentLoadModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 168
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.CoreModule.pdb",
-      "DisplayName": "Copying UnityEngine.CoreModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.CoreModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 169
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.CrashReportingModule.pdb",
-      "DisplayName": "Copying UnityEngine.CrashReportingModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CrashReportingModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.CrashReportingModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 170
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.DirectorModule.pdb",
-      "DisplayName": "Copying UnityEngine.DirectorModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DirectorModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.DirectorModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 171
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.DSPGraphModule.pdb",
-      "DisplayName": "Copying UnityEngine.DSPGraphModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DSPGraphModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.DSPGraphModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 172
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GameCenterModule.pdb",
-      "DisplayName": "Copying UnityEngine.GameCenterModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GameCenterModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.GameCenterModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 173
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GIModule.pdb",
-      "DisplayName": "Copying UnityEngine.GIModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GIModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.GIModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 174
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GraphToolsFoundationModule.pdb",
-      "DisplayName": "Copying UnityEngine.GraphToolsFoundationModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GraphToolsFoundationModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.GraphToolsFoundationModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 175
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.GridModule.pdb",
-      "DisplayName": "Copying UnityEngine.GridModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GridModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.GridModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 176
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.HierarchyCoreModule.pdb",
-      "DisplayName": "Copying UnityEngine.HierarchyCoreModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.HierarchyCoreModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.HierarchyCoreModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 177
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.HotReloadModule.pdb",
-      "DisplayName": "Copying UnityEngine.HotReloadModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.HotReloadModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.HotReloadModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 178
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ImageConversionModule.pdb",
-      "DisplayName": "Copying UnityEngine.ImageConversionModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ImageConversionModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ImageConversionModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 179
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.IMGUIModule.pdb",
-      "DisplayName": "Copying UnityEngine.IMGUIModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.IMGUIModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 180
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.InputForUIModule.pdb",
-      "DisplayName": "Copying UnityEngine.InputForUIModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputForUIModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.InputForUIModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 181
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.InputLegacyModule.pdb",
-      "DisplayName": "Copying UnityEngine.InputLegacyModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputLegacyModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.InputLegacyModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 182
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.InputModule.pdb",
-      "DisplayName": "Copying UnityEngine.InputModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.InputModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 183
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
-      "DisplayName": "Copying UnityEngine.JSONSerializeModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.JSONSerializeModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 184
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.LocalizationModule.pdb",
-      "DisplayName": "Copying UnityEngine.LocalizationModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.LocalizationModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.LocalizationModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 185
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.MarshallingModule.pdb",
-      "DisplayName": "Copying UnityEngine.MarshallingModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.MarshallingModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.MarshallingModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 186
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.MultiplayerModule.pdb",
-      "DisplayName": "Copying UnityEngine.MultiplayerModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.MultiplayerModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.MultiplayerModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 187
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.NVIDIAModule.pdb",
-      "DisplayName": "Copying UnityEngine.NVIDIAModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.NVIDIAModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.NVIDIAModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 188
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
-      "DisplayName": "Copying UnityEngine.ParticleSystemModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 189
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.pdb",
-      "DisplayName": "Copying UnityEngine.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 190
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
-      "DisplayName": "Copying UnityEngine.PerformanceReportingModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PerformanceReportingModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 191
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.Physics2DModule.pdb",
-      "DisplayName": "Copying UnityEngine.Physics2DModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.Physics2DModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 192
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.PhysicsModule.pdb",
-      "DisplayName": "Copying UnityEngine.PhysicsModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.PhysicsModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 193
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ProfilerModule.pdb",
-      "DisplayName": "Copying UnityEngine.ProfilerModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ProfilerModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ProfilerModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 194
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.PropertiesModule.pdb",
-      "DisplayName": "Copying UnityEngine.PropertiesModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.PropertiesModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 195
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
-      "DisplayName": "Copying UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 196
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
-      "DisplayName": "Copying UnityEngine.ScreenCaptureModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ScreenCaptureModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 197
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
-      "DisplayName": "Copying UnityEngine.SharedInternalsModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SharedInternalsModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 198
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
-      "DisplayName": "Copying UnityEngine.SpriteMaskModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteMaskModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 199
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
-      "DisplayName": "Copying UnityEngine.SpriteShapeModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteShapeModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 200
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.StreamingModule.pdb",
-      "DisplayName": "Copying UnityEngine.StreamingModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.StreamingModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.StreamingModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 201
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SubstanceModule.pdb",
-      "DisplayName": "Copying UnityEngine.SubstanceModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubstanceModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.SubstanceModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 202
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.SubsystemsModule.pdb",
-      "DisplayName": "Copying UnityEngine.SubsystemsModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubsystemsModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.SubsystemsModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 203
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TerrainModule.pdb",
-      "DisplayName": "Copying UnityEngine.TerrainModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TerrainModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 204
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
-      "DisplayName": "Copying UnityEngine.TerrainPhysicsModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainPhysicsModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 205
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
-      "DisplayName": "Copying UnityEngine.TextCoreFontEngineModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreFontEngineModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 206
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
-      "DisplayName": "Copying UnityEngine.TextCoreTextEngineModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 207
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TextRenderingModule.pdb",
-      "DisplayName": "Copying UnityEngine.TextRenderingModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextRenderingModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TextRenderingModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 208
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TilemapModule.pdb",
-      "DisplayName": "Copying UnityEngine.TilemapModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TilemapModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TilemapModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 209
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.TLSModule.pdb",
-      "DisplayName": "Copying UnityEngine.TLSModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TLSModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.TLSModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 210
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UI.pdb",
-      "DisplayName": "Copying UnityEngine.UI.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UI.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UI.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 211
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UIElementsModule.pdb",
-      "DisplayName": "Copying UnityEngine.UIElementsModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UIElementsModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 212
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UIModule.pdb",
-      "DisplayName": "Copying UnityEngine.UIModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UIModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 213
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UmbraModule.pdb",
-      "DisplayName": "Copying UnityEngine.UmbraModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UmbraModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UmbraModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 214
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityAnalyticsCommonModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsCommonModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 215
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityAnalyticsModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 216
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityConnectModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityConnectModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityConnectModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityConnectModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 217
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityCurlModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityCurlModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityCurlModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityCurlModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 218
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityTestProtocolModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityTestProtocolModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 219
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestAssetBundleModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 220
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestAudioModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAudioModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 221
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 222
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestTextureModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestTextureModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 223
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestWWWModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestWWWModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 224
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VehiclesModule.pdb",
-      "DisplayName": "Copying UnityEngine.VehiclesModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VehiclesModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.VehiclesModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 225
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VFXModule.pdb",
-      "DisplayName": "Copying UnityEngine.VFXModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VFXModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.VFXModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 226
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VideoModule.pdb",
-      "DisplayName": "Copying UnityEngine.VideoModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VideoModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.VideoModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 227
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
-      "DisplayName": "Copying UnityEngine.VirtualTexturingModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VirtualTexturingModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 228
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.VRModule.pdb",
-      "DisplayName": "Copying UnityEngine.VRModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VRModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.VRModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 229
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.WindModule.pdb",
-      "DisplayName": "Copying UnityEngine.WindModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.WindModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.WindModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 230
-    },
-    {
-      "Annotation": "CopyFiles Builds/Mirror Survival_Data/Managed/UnityEngine.XRModule.pdb",
-      "DisplayName": "Copying UnityEngine.XRModule.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.XRModule.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/Mirror Survival_Data/Managed/UnityEngine.XRModule.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 231
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 132230,
+      "PayloadOffset": 132360,
       "PayloadLength": 30,
       "PayloadDebugContentSnippet": "DefaultCompany\nMirror Survival",
       "Inputs": [],
@@ -7310,7 +5303,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/app.info",
@@ -7329,16 +5322,16 @@
         2
       ],
       "ToBuildDependencies": [
-        232
+        141
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival_Data/Resources/unity default resources",
       "DisplayName": "Copying unity default resources",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources/unity default resources"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
       ],
       "InputFlags": [
         0
@@ -7349,7 +5342,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Builds/Mirror Survival.exe",
@@ -7367,14 +5360,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
       "DisplayName": "Copying mono-2.0-bdwgc.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
       "InputFlags": [
         0
@@ -7385,14 +5378,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
       "DisplayName": "Copying MonoPosixHelper.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
       "InputFlags": [
         0
@@ -7403,14 +5396,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
       "DisplayName": "Copying Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
       "InputFlags": [
         0
@@ -7421,14 +5414,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
       "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "InputFlags": [
         0
@@ -7439,14 +5432,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config",
       "DisplayName": "Copying machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
       "InputFlags": [
         0
@@ -7457,14 +5450,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map",
       "DisplayName": "Copying settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
       "InputFlags": [
         0
@@ -7475,14 +5468,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config",
       "DisplayName": "Copying web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
       "InputFlags": [
         0
@@ -7493,14 +5486,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
       "DisplayName": "Copying Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
       "InputFlags": [
         0
@@ -7511,14 +5504,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
       "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "InputFlags": [
         0
@@ -7529,14 +5522,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config",
       "DisplayName": "Copying machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
       "InputFlags": [
         0
@@ -7547,14 +5540,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map",
       "DisplayName": "Copying settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
       "InputFlags": [
         0
@@ -7565,14 +5558,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config",
       "DisplayName": "Copying web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
       "InputFlags": [
         0
@@ -7583,14 +5576,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
       "DisplayName": "Copying Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
       "InputFlags": [
         0
@@ -7601,14 +5594,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
       "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
       "InputFlags": [
         0
@@ -7619,14 +5612,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config",
       "DisplayName": "Copying machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
       "InputFlags": [
         0
@@ -7637,14 +5630,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map",
       "DisplayName": "Copying settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
       "InputFlags": [
         0
@@ -7655,14 +5648,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config",
       "DisplayName": "Copying web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
       "InputFlags": [
         0
@@ -7673,14 +5666,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini",
       "DisplayName": "Copying browscap.ini",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
       "InputFlags": [
         0
@@ -7691,14 +5684,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/config",
       "DisplayName": "Copying config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/config"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
       ],
       "InputFlags": [
         0
@@ -7709,14 +5702,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 254
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml",
       "DisplayName": "Copying config.xml",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
       "InputFlags": [
         0
@@ -7727,14 +5720,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 255
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Builds/UnityCrashHandler64.exe",
       "DisplayName": "Copying UnityCrashHandler64.exe",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/UnityCrashHandler64.exe"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
       ],
       "InputFlags": [
         0
@@ -7745,14 +5738,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 256
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Builds/UnityPlayer.dll",
       "DisplayName": "Copying UnityPlayer.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/UnityPlayer.dll"
+        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
       ],
       "InputFlags": [
         0
@@ -7763,25 +5756,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 257
-    },
-    {
-      "Annotation": "CopyFiles Builds/WinPixEventRuntime.dll",
-      "DisplayName": "Copying WinPixEventRuntime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/WinPixEventRuntime.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/WinPixEventRuntime.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 258
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Builds/D3D12/D3D12Core.dll",
@@ -7799,25 +5774,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 259
-    },
-    {
-      "Annotation": "CopyFiles Builds/D3D12/d3d12SDKLayers.dll",
-      "DisplayName": "Copying d3d12SDKLayers.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/External/AgilitySDK/x64/d3d12SDKLayers.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Builds/D3D12/d3d12SDKLayers.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 260
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "Player",
@@ -7842,10 +5799,10 @@
         13,
         14,
         15,
+        16,
+        17,
         18,
         21,
-        22,
-        23,
         24,
         25,
         26,
@@ -7963,7 +5920,6 @@
         138,
         139,
         140,
-        141,
         142,
         143,
         144,
@@ -7989,101 +5945,9 @@
         164,
         165,
         166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199,
-        200,
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
-        215,
-        216,
-        217,
-        218,
-        219,
-        220,
-        221,
-        222,
-        223,
-        224,
-        225,
-        226,
-        227,
-        228,
-        229,
-        230,
-        231,
-        233,
-        234,
-        235,
-        236,
-        237,
-        238,
-        239,
-        240,
-        241,
-        242,
-        243,
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251,
-        252,
-        253,
-        254,
-        255,
-        256,
-        257,
-        258,
-        259,
-        260
+        167
       ],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 168
     }
   ],
   "FileSignatures": [
@@ -8222,10 +6086,10 @@
       "File": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono"
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources"
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
     },
     {
       "File": "Library/Bee/Player12531791-inputdata.json"
@@ -8247,11 +6111,11 @@
       "Path": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
       "Recurse": 1
     },
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2023.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
       "Recurse": 1
     },
     {
@@ -8300,7 +6164,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 261
+          "Player": 168
         }
 ,  "DefaultNodes": [
     0

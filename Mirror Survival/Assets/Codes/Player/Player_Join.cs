@@ -11,17 +11,22 @@ public class Player_Join : NetworkBehaviour
 
     [SerializeField] private Transform ready_image;
 
+    [SerializeField] private GameObject ready_button;
+
 
     void Start()
     {
         start_system = GameObject.Find("Players Manager").GetComponent<Start_Game>();
 
         the_player = transform.GetChild(0);
+
+        if (!isLocalPlayer)  ready_button.SetActive(false);
     }
 
-
+    
     public void Set_Player_Ready()
     {
+
         start_system.Get_Local_Player(the_player);
 
         if (isLocalPlayer) Cmd_Confirm_Ready();
@@ -32,6 +37,7 @@ public class Player_Join : NetworkBehaviour
     public void Cmd_Confirm_Ready()
     {
         start_system.Server_Set_Ready_Player();
+       
         ReceivedConfirm_Ready(true);
     }
 
@@ -41,6 +47,8 @@ public class Player_Join : NetworkBehaviour
     {
         ready_image.GetChild(0).gameObject.SetActive(_state);
         ready_image.gameObject.SetActive(_state);
+
+        
     }
 
     

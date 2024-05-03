@@ -32,6 +32,11 @@ public class Projectile : NetworkBehaviour
             other.GetComponent<Life_System>().Lose_Health(damage, transform.position);
             this.gameObject.SetActive(false);
         }
+
+        if (other.CompareTag("Environment"))
+        {
+            this.gameObject.SetActive(false);
+        }
     }
    
 

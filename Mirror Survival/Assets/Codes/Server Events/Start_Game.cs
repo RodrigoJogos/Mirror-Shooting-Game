@@ -23,6 +23,9 @@ public class Start_Game : NetworkBehaviour
     [SerializeField] private GameObject enemies_HUD;
     [SerializeField] private TMP_Text countdown_txt;
 
+    [Space(30)]
+
+    [SerializeField] private AudioSource level_song;
 
     void Start()
     {
@@ -53,7 +56,7 @@ public class Start_Game : NetworkBehaviour
 
     IEnumerator Counting_Start_Game()
     {
-        for (int i = 4; i > 0; i--)
+        for (int i = 3; i > 0; i--)
         {
             countdown_txt.text = "" + i;
             yield return new WaitForSeconds(1f);
@@ -70,6 +73,8 @@ public class Start_Game : NetworkBehaviour
 
         players_Manager.Find_All_Players_In_Game();
         Game_Events.singleton.Change_Game_Event("Game_Starts");
+
+        level_song.enabled = true;
     }
 
     
