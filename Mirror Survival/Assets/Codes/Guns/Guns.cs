@@ -35,11 +35,6 @@ public class Guns
     }
 
 
-    public void Increase_ClipAmmo()
-    {
-        original_ammo += 2;
-    }
+    public void Increase_ClipAmmo() => original_ammo += 2;
 
-
-    
 }

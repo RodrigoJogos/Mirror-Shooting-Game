@@ -7,18 +7,16 @@ using Mirror;
 
 public class Enemy_Status : NetworkBehaviour
 {   
-    //Outside References
+    [Header("Outside References")]
     private Game_Manager game_manager;
     private NavMeshAgent navMeshAgent;
     [SerializeField] private Life_System enemy_life;
     [SerializeField] private Collider_Controll enemy_attack;
     
 
-    //Data Settings
-    private Wave_Data wave_data;
-
-    //Enemy Class
+    [Header("Enemy Class")]
     public Status my_status = new Status("Zombie",0f,0,0,0);
+    private Wave_Data wave_data;
 
 
     void Awake()
@@ -47,10 +45,7 @@ public class Enemy_Status : NetworkBehaviour
     void Change_Status()
     {
         navMeshAgent.speed = my_status.speed;
-
         enemy_life.Reset_Life(my_status.current_life);
-        
-        // CHANGE DAMAGE
         enemy_attack.Configure_New_Damage(my_status.damage);
     }
 

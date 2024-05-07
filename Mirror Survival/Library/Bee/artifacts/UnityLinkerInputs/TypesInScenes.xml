@@ -3,6 +3,7 @@
 		<type fullname="Billboard" preserve="nothing"/>
 		<type fullname="Camera_Follow" preserve="nothing"/>
 		<type fullname="CFX_AutoDestructShuriken" preserve="nothing"/>
+		<type fullname="CFX_LightFlicker" preserve="nothing"/>
 		<type fullname="CFX_LightIntensityFade" preserve="nothing"/>
 		<type fullname="Collider_Controll" preserve="nothing"/>
 		<type fullname="Death_Effects" preserve="nothing"/>
@@ -16,6 +17,7 @@
 		<type fullname="Gun_Data" preserve="nothing"/>
 		<type fullname="Gun_Settings" preserve="nothing"/>
 		<type fullname="Huds_Manager" preserve="nothing"/>
+		<type fullname="Laser_Aim" preserve="nothing"/>
 		<type fullname="Life_System" preserve="nothing"/>
 		<type fullname="My_Network_Manager" preserve="nothing"/>
 		<type fullname="Names_Manager" preserve="nothing"/>
@@ -103,7 +105,10 @@
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
+		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
+		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
@@ -126,6 +131,9 @@
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Terrain" preserve="nothing"/>
+		<type fullname="UnityEngine.TerrainData" preserve="nothing"/>
+		<type fullname="UnityEngine.TerrainLayer" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>

@@ -5,16 +5,11 @@ using Mirror;
 
 public class Enemy_Controller : NetworkBehaviour
 {
-    
     private Enemy_Chase enemy_chase;
-
     private Enemy_Animation enemy_animation;
-
-
     private Life_System life_system;
    
    
-
     void Awake()
     {
         enemy_chase = GetComponent<Enemy_Chase>();
@@ -35,9 +30,6 @@ public class Enemy_Controller : NetworkBehaviour
     }
 
 
-    
-
-
     void Update()
     {
         enemy_animation.Die_Animation(life_system.Get_Alive_State());
@@ -47,17 +39,10 @@ public class Enemy_Controller : NetworkBehaviour
             enemy_chase.Chase_Target();
 
             enemy_animation.Run_Attack_Animation(enemy_chase.Get_Distance_From_Target());
-        }
-        
-        
+        }        
     }
 
 
-
-
-
     void OnDisable() => Game_Events.singleton.Change_Game_Event("Enemie_Dies");
-
-
 
 }

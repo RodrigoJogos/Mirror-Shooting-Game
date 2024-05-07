@@ -50,19 +50,25 @@ public class Life_System : NetworkBehaviour
 
 
     [Server]
-    void Server_ChangeLife(int _amount)
-    {
-        life -= _amount;
-    }
+    void Server_ChangeLife(int _amount) => life -= _amount;
+
 
     void All_Clients_Health_Changed(int _oldlife, int _newlife)
     {
-        life_txt.text = "" + life;
+        if (life_txt != null)
+        {
+            life_txt.text = "" + life;
+        }
+
         Change_Health_Bar();
 
         if (life <= 0 && is_alive)
         {
-            //character_body.SetActive(false);
+            if (life_txt != null)
+            {
+                life_txt.text = "0";
+            }
+           
             StartCoroutine(Die(die_time));
         }
     }
@@ -92,20 +98,16 @@ public class Life_System : NetworkBehaviour
     }
   
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
-    public void Set_Alive_State(bool _next_value) 
-    {
-        is_alive = _next_value;
-    } 
+    public void Set_Alive_State(bool _next_value) => is_alive = _next_value;
+
     public bool Get_Alive_State() 
     {
-        return is_alive;
-    } 
+        return is_alive; 
+    }
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // RESTORE HEALTH
     public void Reset_Life(int _new_life)
@@ -114,9 +116,6 @@ public class Life_System : NetworkBehaviour
     }
 
     [Server]
-    void Server_Reset_Life(int _new_life)
-    {
-        life = _new_life;
-    }
+    void Server_Reset_Life(int _new_life) => life = _new_life;
   
 }

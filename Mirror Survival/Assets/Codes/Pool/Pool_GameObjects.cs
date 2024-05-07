@@ -16,7 +16,6 @@ public class Pool_GameObjects : NetworkBehaviour
             if (!itens_list[_index].activeSelf)
             {
                 return _index;
-                //break;
             }
         }
         return -1;
@@ -50,8 +49,5 @@ public class Pool_GameObjects : NetworkBehaviour
     {
         return itens_list[_index];
     }
-
-
-
-   
+  
 }

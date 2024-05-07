@@ -6,36 +6,32 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-//
 
-//
 public class My_Network_Manager : NetworkManager
 {
-    public TMP_InputField AddressField;
+    [Header("Create Room")]
+    [SerializeField] private TMP_InputField AddressField;
 
-    public TMP_Text map_txt;
-
-    public GameObject error_hud;
-
-    [Space(30)]
-    public int current_index = 0;
-    public List<string> maps_names = new List<string>();
+    [Header("Error")]
+    [SerializeField] private GameObject error_hud;
 
     
-    void Start()
-    {
-        Select_Map(maps_names[current_index]);
-    }
+    [Header("Map")]
+    [SerializeField] private TMP_Text map_txt;
+    [SerializeField] private List<string> maps_names = new List<string>();
+    private int current_index = 0;
+
+    
+    void Start() => Select_Map(maps_names[current_index]);
 
 
 #region Create Room
 
-    //Mexer nesse ainda!!!
     public void Set_Max_Players(int _amount)
     {
         NetworkManager.singleton.maxConnections = _amount;
     }
-    /////////////////////////////////////////////////////////
+
 
     public void Change_Map(int _amount)
     {
@@ -69,6 +65,7 @@ public class My_Network_Manager : NetworkManager
 #endregion
 
 
+#region JOIN
 
     public void Join_Lobby()
     {
@@ -77,54 +74,42 @@ public class My_Network_Manager : NetworkManager
         NetworkManager.singleton.StartClient();
     }
 
+#endregion
 
 
-
+#region DISCONNECTIONS
 
      public override void OnServerDisconnect(NetworkConnectionToClient conn)
     {
         //base.OnServerDisconnect(NetworkConnectionToClient conn);
-        SceneManager.LoadScene("Error");
-
+        //SceneManager.LoadScene("Error");
         //Quit_Room();
-    }
-
-    public override void OnClientConnect()
-    {
-        base.OnClientConnect();
-
-        print("Cliente Conectou");
+        // NetworkManager.singleton.StopClient();
+        // SceneManager.LoadScene("Main Menu");
+        // Destroy(this.gameObject);
     }
 
     public override void OnClientDisconnect()
     {
         base.OnClientDisconnect();
 
-        print("Cliente SAIU");
-
         if(error_hud != null) error_hud.SetActive(true);
-        
     }
 
-    
+#endregion
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///
-    // Falta a Lógica de sair do jogo
+#region QUIT
 
     public void Quit_Room()
     {
         if (NetworkServer.active && NetworkClient.isConnected)
         {
             NetworkManager.singleton.StopHost();
-            print("Era host");    
         }
         else
         {
             NetworkManager.singleton.StopClient();
-            print("Era cliente");    
-
         }
 
         SceneManager.LoadScene("Main Menu");
@@ -134,6 +119,6 @@ public class My_Network_Manager : NetworkManager
 
     public void Quit_Game() =>  Application.Quit();
 
+#endregion
 
-    
 }

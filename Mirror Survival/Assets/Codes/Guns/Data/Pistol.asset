@@ -17,8 +17,8 @@ MonoBehaviour:
   next_fire_time: 0
   fireRate: 0.54
   reload_time: 2
-  ammo: 8
-  original_ammo: 8
+  ammo: 6
+  original_ammo: 6
   damage: 1
   shooting_clip: {fileID: 7400000, guid: 761f9d94c752b8b4399ac8b53cdff96e, type: 2}
   reloading_clip: {fileID: 7400000, guid: eee82a5917e550246b09c20e838c19d3, type: 2}

@@ -13,12 +13,12 @@ public class Gun_Settings : NetworkBehaviour
  
     [Header("Holding Gun")]    
     public Guns gun;
-    public Gun_Data gun_data;
-    public PlayersLocal_Hud gun_hud;
+    [SerializeField] private Gun_Data gun_data;
+    [SerializeField] private PlayersLocal_Hud gun_hud;
 
 
-    [Header("Audio Test")]    
-    public Player_Sounds player_sounds;
+    [Header("Audio")]    
+    private Player_Sounds player_sounds;
    
 
 
@@ -27,18 +27,14 @@ public class Gun_Settings : NetworkBehaviour
         pool_controller = GetComponent<Pool_Controller>();
         player_sounds = GetComponent<Player_Sounds>();
 
-
         //Create First Gun
         gun  = new Guns(gun_data);
-
-
         Change_Gun_Hud();
     }
 
-    public void Change_Gun_Hud()
-    {
-        gun_hud.Set_Gun(gun.icon_hud, gun.ammo);
-    }
+
+    public void Change_Gun_Hud() => gun_hud.Set_Gun(gun.icon_hud, gun.ammo);
+
 
     //SHOOTING MECANISM ===========================================================================================
 

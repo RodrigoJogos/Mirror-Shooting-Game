@@ -6,35 +6,30 @@ public class Laser_Aim : MonoBehaviour
 {
     private LineRenderer laser;
 
-    [SerializeField] private Transform pointA, pointB;
+    [Header("Origin")]
+    [SerializeField] private Transform pointA;
 
-    [SerializeField] private float comprimentoMaximo = 10f;
+    [Header("Default Destination")]
+    [SerializeField] private Transform pointB;
+
+    [Header("Length")]
+    [SerializeField] private float max_length = 5f;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        laser = GetComponent<LineRenderer>();
-    }
+    void Start() => laser = GetComponent<LineRenderer>();
 
-    // Update is called once per frame
+
     void Update()
     {
-            // Cria um Raycasthit para armazenar as informações do que foi atingido
             RaycastHit hit;
 
-            // Lança um raio na direção definida
-            if (Physics.Raycast(pointA.position, transform.forward, out hit, comprimentoMaximo))
+            if (Physics.Raycast(pointA.position, transform.forward, out hit, max_length))
             {
-                // Se o raio atingiu algo
                 Vector3 pontoDeColisao = hit.point;
                 Draw_Aim_Line(pontoDeColisao);
-
             }
             else
-            {
-                // Se o raio não atingiu nada
-               
+            {               
                  Draw_Aim_Line(pointB.position);
             }
         
@@ -43,9 +38,9 @@ public class Laser_Aim : MonoBehaviour
     public void Draw_Aim_Line(Vector3 _target)
     {
         laser.SetPosition(0,pointA.position);
-
         laser.SetPosition(1,_target);
     }
+
 
     public void Set_Laser_State()
     {
@@ -59,9 +54,7 @@ public class Laser_Aim : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             return;
-        }
-
-       
+        }     
     }
 
 }

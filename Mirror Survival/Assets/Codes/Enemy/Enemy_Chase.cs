@@ -14,7 +14,7 @@ public class Enemy_Chase : NetworkBehaviour
 
     //Outside References
     private NavMeshAgent navMeshAgent;
-    private Transform my_target; //trocar private depois de testar
+    private Transform my_target; 
 
 
     //Avoid Calling same function twice
@@ -101,14 +101,7 @@ public class Enemy_Chase : NetworkBehaviour
     }
    
 
-
-    //TESTING ANIMATIONS
-    public void EnableNavMesh()
-    {
-        navMeshAgent.enabled = true;
-    }
-    public void DisableNavMesh()
-    {
-        navMeshAgent.enabled = false;
-    }
+    public void EnableNavMesh() => navMeshAgent.enabled = true;
+    
+    public void DisableNavMesh() => navMeshAgent.enabled = false;
 }

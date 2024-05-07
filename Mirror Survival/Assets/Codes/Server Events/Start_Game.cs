@@ -8,51 +8,55 @@ using Mirror;
 public class Start_Game : NetworkBehaviour
 {
     private Players_Manager players_Manager;
+    private Transform my_player;
+
+    [Header("Room Players")]
     [SyncVar(hook = nameof(Player_Ready_Count_Changed))] public int ready_players_count = 0;
-
-    [Space(30)]
-
     [SyncVar(hook = nameof(Changed_MaxPlayers_Room))] public int max_players_room = 0;
 
-    [Space(30)]
+    [Space(20)]
 
-    [SerializeField] private Transform my_player;
-
-    [Space(30)]
+    [Header("HUD")]
     [SerializeField] private GameObject fade_HUD;
     [SerializeField] private GameObject enemies_HUD;
     [SerializeField] private TMP_Text countdown_txt;
 
-    [Space(30)]
+    [Space(20)]
 
+    [Header("Audio")]
     [SerializeField] private AudioSource level_song;
+
+
 
     void Start()
     {
         players_Manager = GetComponent<Players_Manager>();
-        
         Load_MaxPlayers_Room();
     }
 
 
-    [Server]
-    public void Server_Set_Ready_Player() => ready_players_count++;
-
-
-    public void Player_Ready_Count_Changed(int _oldcount, int _newcount)
-    {
-        if (ready_players_count >= max_players_room) // change this after
-        {
-            StartCoroutine(Counting_Start_Game());
-        }
-    }
-
+#region PLAYER_READY   
 
     public void Get_Local_Player(Transform _received_player)
     {
         my_player = _received_player;
     }
 
+    public void Player_Ready_Count_Changed(int _oldcount, int _newcount)
+    {
+        if (ready_players_count >= max_players_room) 
+        {
+            StartCoroutine(Counting_Start_Game());
+        }
+    }
+
+    [Server]
+    public void Server_Set_Ready_Player() => ready_players_count++;
+
+#endregion
+
+
+#region START GAME
 
     IEnumerator Counting_Start_Game()
     {
@@ -62,6 +66,7 @@ public class Start_Game : NetworkBehaviour
             yield return new WaitForSeconds(1f);
         }
 
+        countdown_txt.text = "0";
         fade_HUD.SetActive(true);
         yield return new WaitForSeconds(2f);
         
@@ -83,16 +88,15 @@ public class Start_Game : NetworkBehaviour
         my_player.GetComponentInParent<Player_Block>().Control_Player(_state);
     }
 
+#endregion
 
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////
-    ///
+#region MAX_ROOM_PLAYERS
 
     public void Load_MaxPlayers_Room()
     {
         if (PlayerPrefs.HasKey("Max_Players_Room"))
         {
-              
             if (isServer)
             {
                 Server_Set_MaxPlayers(PlayerPrefs.GetInt("Max_Players_Room"));
@@ -111,5 +115,7 @@ public class Start_Game : NetworkBehaviour
     {
        
     }
+
+#endregion
 
 }

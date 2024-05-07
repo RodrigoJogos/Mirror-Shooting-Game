@@ -19,13 +19,13 @@ public class Save_Load_Menu : MonoBehaviour
 
 
     [Header("Skins Settings")]
-    private int skin_choosen;
     [SerializeField] GameObject[] select_buttons;
     [SerializeField] GameObject[] select_toggles;
+    private int skin_choosen;
 
 
     [Header("Create Room")]
-    public TMP_Dropdown room_player_dropdown;
+    [SerializeField] TMP_Dropdown room_player_dropdown;
 
 
     void Start()
@@ -37,7 +37,7 @@ public class Save_Load_Menu : MonoBehaviour
         room_player_dropdown.value = 0;
     }
 
-
+    // NAME
     public void Save_Player_Name()
     {
         player_name = input_type_name.text;
@@ -54,8 +54,8 @@ public class Save_Load_Menu : MonoBehaviour
         }
     }
 
-/////////////////////////////////////////////////////////////////////////////////
 
+    // SKINS
     public void Save_Skins(int _choosen_number)
     {
         skin_choosen = _choosen_number;
@@ -79,15 +79,12 @@ public class Save_Load_Menu : MonoBehaviour
     }
 
 
-    public void Quit_Game() =>  Application.Quit();
-
-
-///////////////////////////////////////////////////////////////////////
-
-
+    // PLAYERS ROOM 
     public void Save_Max_Players_Room()
     {
         PlayerPrefs.SetInt("Max_Players_Room", room_player_dropdown.value + 1);
     }
 
+    
+    public void Quit_Game() =>  Application.Quit();
 }

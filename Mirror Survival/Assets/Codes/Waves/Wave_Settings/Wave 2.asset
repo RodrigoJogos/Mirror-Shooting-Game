@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Wave 2
   m_EditorClassIdentifier: 
   name: Wave 2
-  wait_timer: 2
-  limit_wave: 6
+  wait_timer: 1
+  limit_wave: 11
   enemies_spawned: 0
   enemys_killed: 0
-  speed: 5
-  life: 2
-  damage: 1
+  speed: 4
+  life: 4
+  damage: 2

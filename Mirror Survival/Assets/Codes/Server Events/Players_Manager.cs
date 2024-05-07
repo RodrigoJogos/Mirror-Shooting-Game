@@ -10,25 +10,8 @@ public class Players_Manager : NetworkBehaviour
     private int players_dies = 0;
 
     [SerializeField]
-    private List<GameObject> server_players = new List<GameObject>();
+    List<GameObject> server_players = new List<GameObject>();
 
-
-
-    public void Find_All_Players_In_Game()
-    {
-        server_players.Clear();
-        
-        GameObject[] _found_players = GameObject.FindGameObjectsWithTag("Player");
-
-        foreach (GameObject _players in _found_players)
-        {
-            server_players.Add(_players);
-        }
-    }
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///
 
     [Server]
     public int Server_Draft_Number()
@@ -43,33 +26,48 @@ public class Players_Manager : NetworkBehaviour
     }
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///
 
-     public void Increase_Dies()
+#region ALL_PLAYERS_GAME
+
+    public void Find_All_Players_In_Game()
     {
-        players_dies++;
+        server_players.Clear();
+        GameObject[] _found_players = GameObject.FindGameObjectsWithTag("Player");
 
-        
-        if (players_dies >= Count_All_Players_InRoom()) 
+        foreach (GameObject _players in _found_players)
         {
-            Game_Events.singleton.Change_Game_Event("Game_Over");
+            server_players.Add(_players);
         }
     }
 
-    
     public void Revive_All_Players(bool _next_state)
     {
         foreach (GameObject _players in server_players)
         {
             players_dies = 0;
             _players.GetComponent<Life_System>().Reset_Life(10);
-            _players.SetActive(_next_state);
-            //open upgrades available
-            
+            _players.SetActive(_next_state);            
         }
     }
 
+#endregion
+    
+
+#region DIES_GAMEOVER
+
+    public void Increase_Dies()
+    {
+        players_dies++;
+        Verify_GameOver();
+    }
+
+    void Verify_GameOver()
+    {
+        if (players_dies >= Count_All_Players_InRoom()) 
+        {
+            Game_Events.singleton.Change_Game_Event("Game_Over");
+        }
+    }
 
     //JUST TO GAMEOVER SYSTEM
     public int Count_All_Players_InRoom()
@@ -78,5 +76,7 @@ public class Players_Manager : NetworkBehaviour
 
         return jogadores.Length;
     }
+
+#endregion
    
 }

@@ -70,14 +70,12 @@
     <Compile Include="Assets\Effects\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\Codes\Player\Player_Inputs.cs" />
     <Compile Include="Assets\Codes\Player\Player_Sounds.cs" />
-    <Compile Include="Assets\Codes\Upgrades_System.cs" />
     <Compile Include="Assets\Effects\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Codes\Enemy\Enemy_Attack.cs" />
     <Compile Include="Assets\Effects\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\Codes\Life\Life_System.cs" />
     <Compile Include="Assets\Codes\Huds\Huds_Manager.cs" />
-    <Compile Include="Assets\Codes\Shoots_Upgrade.cs" />
-    <Compile Include="Assets\Codes\Testimg.cs" />
+    <Compile Include="Assets\Codes\Upgrades\Upgrades_System.cs" />
     <Compile Include="Assets\Codes\Waves\Wave_Settings\Wave_Data.cs" />
     <Compile Include="Assets\Codes\Guns\Projectile.cs" />
     <Compile Include="Assets\Codes\Class Status\Status.cs" />
@@ -86,9 +84,10 @@
     <Compile Include="Assets\Codes\Player\Player_Join.cs" />
     <Compile Include="Assets\Codes\Player\PlayersLocal_Hud.cs" />
     <Compile Include="Assets\Effects\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
-    <Compile Include="Assets\BigRookGames\_AssetPacks\Stylized Weapon Pack\M4 Scoped Assault Rifle\Scripts\GunfireController.cs" />
     <Compile Include="Assets\Codes\Server Events\Game_Events.cs" />
+    <Compile Include="Assets\Scenarios\Gun Machine\_AssetPacks\Stylized Weapon Pack\M4 Scoped Assault Rifle\Scripts\GunfireController.cs" />
     <Compile Include="Assets\Codes\Network\My_Network_Manager.cs" />
+    <Compile Include="Assets\Codes\Menu\Scene_Controller.cs" />
     <Compile Include="Assets\Effects\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Codes\Server Events\Skins_Manager.cs" />
     <Compile Include="Assets\Codes\Server Events\Names_Manager.cs" />
@@ -110,7 +109,6 @@
     <Compile Include="Assets\Codes\Pool\Pool_GameObjects.cs" />
     <Compile Include="Assets\Codes\Player\Player_Nickname.cs" />
     <Compile Include="Assets\Codes\Waves\Wave_Controller.cs" />
-    <Compile Include="Assets\Codes\Scene_Controller.cs" />
     <Compile Include="Assets\Codes\Waves\Wave_Settings\Wave_Class.cs" />
     <Compile Include="Assets\Effects\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Codes\Guns\Data\Gun_Data.cs" />
@@ -120,8 +118,8 @@
     <Compile Include="Assets\Codes\Enemy\Enemy_Animation.cs" />
     <Compile Include="Assets\Codes\Guns\Gun_Settings.cs" />
     <Compile Include="Assets\Codes\Waves\Respawn_Points.cs" />
-    <Compile Include="Assets\Codes\Disable_Audio.cs" />
     <Compile Include="Assets\Codes\Life\Death_Effects.cs" />
+    <Compile Include="Assets\Codes\Upgrades\Shoots_Upgrade.cs" />
     <Compile Include="Assets\Codes\Guns\Laser_Aim.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -139,7 +137,7 @@
     <None Include="Assets\Effects\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\BigRookGames\_AssetPacks\Stylized Weapon Pack\M4 Scoped Assault Rifle\Readme.txt" />
+    <None Include="Assets\Scenarios\Gun Machine\_AssetPacks\Stylized Weapon Pack\M4 Scoped Assault Rifle\Readme.txt" />
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />

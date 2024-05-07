@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Mirror;
-//
+
 
 public class Game_Manager : NetworkBehaviour
 {
@@ -17,8 +17,8 @@ public class Game_Manager : NetworkBehaviour
 
 
     [Header("Level Waves")]
-    [SyncVar(hook = nameof(Server_Count_Changed))] int waves_survived = 0;
     [SerializeField] private List<Wave_Data> waves = new List<Wave_Data>(); 
+    [SyncVar(hook = nameof(Server_Count_Changed))] int waves_survived = 0;
     private int current_wave = -1;
 
 
@@ -79,7 +79,6 @@ public class Game_Manager : NetworkBehaviour
 
 #region Increase_Kills_Finish_Wave_System
 
-    //Call After Enemie Die
     public void Increase_Kills()
     {
         wave_class.enemys_killed++;
