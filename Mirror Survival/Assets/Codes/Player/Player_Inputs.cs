@@ -16,7 +16,10 @@ public class Player_Inputs : NetworkBehaviour
 
     void Start()
     {
-        // if (!isLocalPlayer)  this.enabled = false;
+       if (!isLocalPlayer)
+          {
+               this.enabled = false;
+          }
     }
 
 

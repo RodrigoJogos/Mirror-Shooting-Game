@@ -15,11 +15,10 @@ public class Player_Rotation : NetworkBehaviour
 
     void Start() 
     {
-        // if (!isLocalPlayer)
-        // {
-        //     this.enabled = false;
-        //     return;
-        // }
+        if (!isLocalPlayer)
+          {
+               this.enabled = false;
+          }
         
         player_Inputs = GetComponentInParent<Player_Inputs>();
     } 

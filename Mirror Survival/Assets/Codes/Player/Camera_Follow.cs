@@ -20,6 +20,8 @@ public class Camera_Follow : NetworkBehaviour
             player_camera.transform.rotation = Quaternion.Euler(50f,0f,0f);
             return;
         }
+
+        this.enabled = false;
     }
 
     void LateUpdate()

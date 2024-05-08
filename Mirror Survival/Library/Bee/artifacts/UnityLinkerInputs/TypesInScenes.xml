@@ -19,6 +19,7 @@
 		<type fullname="Huds_Manager" preserve="nothing"/>
 		<type fullname="Laser_Aim" preserve="nothing"/>
 		<type fullname="Life_System" preserve="nothing"/>
+		<type fullname="Mirror.FizzySteam.FizzySteamworks" preserve="nothing"/>
 		<type fullname="My_Network_Manager" preserve="nothing"/>
 		<type fullname="Names_Manager" preserve="nothing"/>
 		<type fullname="Player_Animations" preserve="nothing"/>
@@ -43,6 +44,8 @@
 		<type fullname="Shoots_Upgrade" preserve="nothing"/>
 		<type fullname="Skins_Manager" preserve="nothing"/>
 		<type fullname="Start_Game" preserve="nothing"/>
+		<type fullname="SteamLobby" preserve="nothing"/>
+		<type fullname="SteamManager" preserve="nothing"/>
 		<type fullname="Upgrades_System" preserve="nothing"/>
 		<type fullname="Wave_Controller" preserve="nothing"/>
 		<type fullname="Wave_Data" preserve="nothing"/>

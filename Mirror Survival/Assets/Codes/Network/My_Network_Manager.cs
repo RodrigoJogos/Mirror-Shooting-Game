@@ -5,12 +5,14 @@ using Mirror;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Steamworks;
 
 
 public class My_Network_Manager : NetworkManager
 {
     [Header("Create Room")]
     [SerializeField] private TMP_InputField AddressField;
+    
 
     [Header("Error")]
     [SerializeField] private GameObject error_hud;
@@ -21,8 +23,13 @@ public class My_Network_Manager : NetworkManager
     [SerializeField] private List<string> maps_names = new List<string>();
     private int current_index = 0;
 
-    
-    void Start() => Select_Map(maps_names[current_index]);
+
+
+
+    void Start() 
+    {
+        Select_Map(maps_names[current_index]);
+    }
 
 
 #region Create Room
@@ -59,13 +66,19 @@ public class My_Network_Manager : NetworkManager
 
     public void Host_Lobby()
     {
+        // if (useSteam)
+        // {
+        //     SteamMatchmaking.CreateLobby(ELobbyType.k_ELobbyTypeFriendsOnly,my_num);
+        //     return;
+        // }
+
         NetworkManager.singleton.StartHost();
     }
 
 #endregion
 
 
-#region JOIN
+// #region JOIN
 
     public void Join_Lobby()
     {
@@ -74,29 +87,29 @@ public class My_Network_Manager : NetworkManager
         NetworkManager.singleton.StartClient();
     }
 
-#endregion
+// #endregion
 
 
-#region DISCONNECTIONS
+// #region DISCONNECTIONS
 
-     public override void OnServerDisconnect(NetworkConnectionToClient conn)
-    {
-        //base.OnServerDisconnect(NetworkConnectionToClient conn);
-        //SceneManager.LoadScene("Error");
-        //Quit_Room();
-        // NetworkManager.singleton.StopClient();
-        // SceneManager.LoadScene("Main Menu");
-        // Destroy(this.gameObject);
-    }
+//      public override void OnServerDisconnect(NetworkConnectionToClient conn)
+//     {
+//         //base.OnServerDisconnect(NetworkConnectionToClient conn);
+//         //SceneManager.LoadScene("Error");
+//         //Quit_Room();
+//         // NetworkManager.singleton.StopClient();
+//         // SceneManager.LoadScene("Main Menu");
+//         // Destroy(this.gameObject);
+//     }
 
-    public override void OnClientDisconnect()
-    {
-        base.OnClientDisconnect();
+//     public override void OnClientDisconnect()
+//     {
+//         base.OnClientDisconnect();
 
-        if(error_hud != null) error_hud.SetActive(true);
-    }
+//         if(error_hud != null) error_hud.SetActive(true);
+//     }
 
-#endregion
+// #endregion
 
 
 #region QUIT
@@ -120,5 +133,9 @@ public class My_Network_Manager : NetworkManager
     public void Quit_Game() =>  Application.Quit();
 
 #endregion
+
+
+
+
 
 }

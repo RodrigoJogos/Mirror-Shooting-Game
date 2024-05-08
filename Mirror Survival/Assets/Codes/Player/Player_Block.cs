@@ -21,6 +21,7 @@ public class Player_Block : MonoBehaviour
 
      void Start()
      {
+          
           player_movement = GetComponentInChildren<Player_Movement>();
           camera_follow = GetComponentInChildren<Camera_Follow>();
           player_rotation = GetComponentInChildren<Player_Rotation>();

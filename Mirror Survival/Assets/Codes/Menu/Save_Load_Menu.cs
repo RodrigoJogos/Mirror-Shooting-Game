@@ -87,4 +87,10 @@ public class Save_Load_Menu : MonoBehaviour
 
     
     public void Quit_Game() =>  Application.Quit();
+
+
+    public void deleteName()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }

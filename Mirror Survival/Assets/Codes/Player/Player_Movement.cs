@@ -16,11 +16,10 @@ public class Player_Movement : NetworkBehaviour
 
     void Start()
     {
-        // if (!isLocalPlayer)
-        // {
-        //     this.enabled = false;
-        //     return;
-        // }
+        if (!isLocalPlayer)
+          {
+               this.enabled = false;
+          }
         
         charCon = GetComponent<CharacterController>();
         player_Inputs = GetComponentInParent<Player_Inputs>();

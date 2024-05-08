@@ -6468,6 +6468,9 @@ MonoBehaviour:
     enemys_killed: 0
   waves:
   - {fileID: 11400000, guid: c4a70689c17f1554cb83e0cbb3a3f2a9, type: 2}
+  - {fileID: 11400000, guid: 955b7d75bb2fe674fa3f02e6179c46c9, type: 2}
+  - {fileID: 11400000, guid: ad488d0f6bcbd8243bbcbaf1ec61bdc9, type: 2}
+  - {fileID: 11400000, guid: fffab733e2cdcce4c84c8b2ce58512cc, type: 2}
 --- !u!114 &1070315705
 MonoBehaviour:
   m_ObjectHideFlags: 0

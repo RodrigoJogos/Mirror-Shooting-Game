@@ -8,7 +8,6 @@
 		<type fullname="My_Network_Manager">
 			<method name="Change_Map"/>
 			<method name="Change_Map"/>
-			<method name="Host_Lobby"/>
 			<method name="Join_Lobby"/>
 		</type>
 		<type fullname="Player_Block">
@@ -28,7 +27,9 @@
 			<method name="Set_Player_Ready"/>
 		</type>
 		<type fullname="Save_Load_Menu">
+			<method name="deleteName"/>
 			<method name="Load_Skins"/>
+			<method name="Quit_Game"/>
 			<method name="Quit_Game"/>
 			<method name="Save_Max_Players_Room"/>
 			<method name="Save_Player_Name"/>
@@ -41,6 +42,9 @@
 			<method name="Quit_Online"/>
 			<method name="Quit_Online"/>
 		</type>
+		<type fullname="SteamLobby">
+			<method name="Host_Lobby"/>
+		</type>
 		<type fullname="Upgrades_System">
 			<method name="Cmd_Upgrade_Damage"/>
 			<method name="Cmd_Upgrade_Damage"/>
@@ -52,6 +56,7 @@
 	</assembly>
 	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
 			<method name="Play"/>
 			<method name="Play"/>
 			<method name="Play"/>

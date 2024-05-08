@@ -15,6 +15,11 @@ public class Player_Gun : NetworkBehaviour
 
     void Start()
     {
+        if (!isLocalPlayer)
+          {
+               this.enabled = false;
+          }
+
         player_Inputs = GetComponentInParent<Player_Inputs>();
 
         gun_settings = GetComponent<Gun_Settings>();
